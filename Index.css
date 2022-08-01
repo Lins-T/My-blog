@@ -1,0 +1,547 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+     
+ 
+ 
+ 
+#header {
+    margin: 0px;
+    padding: 0px;
+    background: none;
+    height: 280px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+h1 {
+    display: none;
+}
+
+
+#logo { 
+   
+    margin: 0px;
+    padding: 0px;
+    width: 350px;
+    height:250px;
+    position: relative;
+    top: 5%;
+    left:30%;
+    box-shadow: 0px 15px 30px 15px; rgb(0,0,0); }
+    
+}
+
+#nav {
+    padding:0px;
+    margin:0px;
+    position: relative;
+}
+
+#nav #drop {
+    word-spacing: 20px;
+   text-align: center;
+   margin: 60px 20px 20px 20px;
+   background: powderblue;
+   border-radius: 10px;
+   position: relative;
+}
+
+#nav ul li {
+    margin: 10px;
+    padding: 8px;
+    color: white;
+    font-wight: bold;
+    font-size: 20px;
+    display: inline-block;
+    border-left: 1px solid black;
+}
+
+#nav ul li:hover {
+   color: maroon;
+   background: #ffab47bc;
+   border-radius: 10px;
+}
+
+
+.content {
+    margin: 10px 10px 10px 10px;
+    padding: 0px;
+    box-shadow: 0px 5px 10px 5px; rgb(0,0,0);
+    box-sizing: border-box;
+    background: #ff8c8;
+    
+}
+ 
+ h2 {
+     padding: 10px;
+     font-size: 50px;
+     
+ }
+
+
+.content .Dmc {
+    margin: 20px;
+    padding:10px;
+}
+
+.content .Dmc5 {
+    width: 420px;
+    height: 420px;
+}
+
+
+.content .dm {
+    width: 420px;
+    height: 420px;
+}
+
+.content .dev {
+    width: 420px;
+    height: 420px;
+    display: one;
+}
+
+
+@media(max-width: 770px){
+    #container {
+       position: relative; 
+       top: 0%;
+       width: 100%;
+   
+    }
+    
+    #header {
+    margin: 0px;
+    padding: 0px;
+    background:    linear-gradient(134deg,#8098ff,#ffd240);
+    
+    height: 80px;
+    border-radius: 0;
+    justify-content: center;
+}
+
+
+h1 {
+    display: block;
+    text-align: center;
+    font-family: verdana;
+    padding: 20px;
+    color: black;
+}
+
+#logo { 
+    display: none;
+     
+}
+    
+   
+#nav {
+   margin: 10px;
+}
+
+#nav #drop {
+   word-spacing: 10px;
+   text-align: center;
+   margin: 0px;
+   background: black;
+   border-radius: 1px;
+   position: relative; 
+   height: 20px;
+   overflow: scroll;
+    
+}
+
+#nav ul li {
+    margin: 0px;
+    padding-left: 2px;
+    color: white;
+    font-wight: bold;
+    font-size: 10px;
+    display: inline-block;
+    border-left: 1px solid  black; 
+    border-radius: 8px;
+}
+
+#nav ul li:hover {
+  
+  
+  
+} 
+    
+    
+.content: {
+   box-sizing: border-box;
+   
+}
+
+
+ h2 {
+    font-size: 10px;
+     
+ }
+
+
+.content  .Dmc {
+   box-sizing: border-box;
+   height: 100px;
+   overflow-x: scroll;
+   border:none;
+   border-radius: 6px;
+   padding: 0px;
+   margin: 0px;
+}
+
+
+
+img {
+   max-width: 200px;
+   height: 100px;  
+   padding: 5px;
+}
+
+.more {
+				padding: 10px;
+}
+
+.more span {
+				font: 10px;
+				border-radius: 30%;
+				background: #dfd5ff;
+				padding: 10px;
+}
+
+span:hover {
+			
+				background: gray;
+}
+ 
+ /* The join */
+.Join {
+				position: relative;
+}
+
+ .link{
+				width: 80px;
+				height: auto;
+				position: fixed;
+			  right: 0%;
+			  bottom: 2%;
+			 
+}
+
+#Joinlink {
+			  position: fixed;
+				bottom: -100%;
+				background: linear-gradient(199deg,#6a8dff,#ffbd40);
+				box-sizing: border-box;
+				width: 100%;
+				height: 50%;
+				transition: 0.89s;
+}
+
+#Joinlink > h6 {
+		text-align: center;	
+		font-size: 2.5em;
+		color: white;	
+}
+
+close {
+				color: white;
+				font-size: 2em;
+				float: right;
+				margin-right: 10px;
+				transform: rotate(45deg);
+}
+ 
+ 
+ .icn {
+ 				width: 50px;
+ 				height: auto;
+ 				padding: 10px;
+ 				position: relative;
+ 				top: 12%;
+ }
+
+
+#Joinlink > a {
+				text-decoration: none;
+				position: relative;
+				top: -10%;
+				left: 10%;
+				color: indigo;
+				padding:auto 0px;
+				height: 50px;
+				background: white;
+}
+
+#Joinlink >a:hover {
+				color: violet;
+}
+
+a > stone {
+				border-radius: 10px;
+				background: white;
+				padding: 20px;
+}
+
+stone > lin {
+				font-weight: bold;
+}
+
+/* Dev Videos */
+.Dev-videos{
+		box-sizing: border-box;		
+		border: 0px solid black;
+		margin-top: 10px;
+}
+
+.Dev-videos table td:nth-child(even) {
+	padding-left: 5px;	
+	font-family: helvetica;
+				font-size: 10px;
+				margin: 0px;
+}
+.Dev-videos table video {
+				width: 150px;
+				border-radius: 10px;
+}
+
+
+
+.Dev-videos table a {
+				font-family: helvetica;
+				font-size: 10px;
+				color: grey;
+				text-decoration: none;
+		   padding-top: 0px;
+}
+
+.Dev-videos table a:hover {
+				color: goldenrod;
+				background-color: white;
+}
+ 
+ .Dev-videos table tr .See{
+ 				text-align: center;
+ 				margin: 10px;
+ 				border-radius: 20px;
+ 				border: 1px solid grey;
+ 				padding-bottom:  6px;
+ }
+ 	
+ 	M {
+ 					color: silver;
+ 	}
+ 		
+ .See:hover {
+       transition: 0.89s;
+       color: white;
+ 				background-color: #ffdfd5;
+ }
+
+/* .game-download */
+
+.game-download {
+text-align: center;
+				margin-top: 20px;
+				margin-bottom: 20px;
+}
+
+.game-download dl {
+				text-align: center;
+				background-color: #40a1ff;
+				border-radius: 30px;
+				font-size: 20px;
+				font-weight: bold;
+				padding: 10px;
+				margin-top: 10px;
+				text-transform: uppercase;
+}
+
+dl .dldown {
+		text-decoration: none;		
+		color: white;
+	}
+	
+
+/* Totrent Ads */
+#torent-ad {
+			box-sizing: border-box;
+			border: 0x solid black;
+	    overflow: scroll;
+}
+
+
+.Utorrent {
+				width: 280px;
+				height: 200px;
+				margin: 0px;
+				border-radius: 20px;
+				background-image: url(Pics/uTorrent.jpg);
+				color: white;
+				
+}
+
+
+.Bittorrent {
+				width: 280px;
+				height: 200px;
+			  background: ;
+				margin: 0px;
+				border-radius: 20px;
+				background-image: url(Pics/uMovies.png);
+}
+
+
+#torent-ad table tr td .Ulink:hover {
+				background-color: red;
+				border-radius: 30px;
+}
+
+
+/* Section Recently added */
+
+#section-recentlyadded {
+		
+		border: 0px solid blue;
+	
+	
+}
+
+h3 {
+				margin: 10px;
+				padding: 10px;
+}
+
+#Top-search {
+				display: flex;
+				flex-flow: wrap;
+				box-sizing: border-box;
+				margin: 2%;
+				
+}
+
+#Top-search div > img {
+				width: 100%;
+				height: 160px;
+				padding: 0%;
+	
+}
+
+#Top-search div  .Dev {
+				width: 50%;
+				height: 0%;
+				margin: 0%;
+				padding: 1%;
+				font-weight: bold;
+				
+	 	   margin-left: 5px;
+}
+
+#Top-search div  #dots,.dots {
+				width: 20px;
+				height: 20px;
+				padding: 0%;
+		    position: relative;
+		    right: -70%;		
+}
+
+#Top-search div  #install{
+			  background: wheat;
+				padding: 5px;
+				width: 60px;				
+				text-align: center;
+				text-decoration: none;
+				color: black;
+				box-shadow: 0 5px 7px 0 rgb(0,0,0,0.6), 0 6.5px 10px 0 rgb(0,0,0,0.24);
+				position: absolute;
+				left: -90%;
+				display: none;
+}
+
+div #dots:hover > #install {
+				display: block;
+}
+
+#Top-search > div{
+			box-sizing: border-box; 
+			width: 46%;	
+			height: auto;
+			background: transparent;
+			margin: 5px;			
+			box-shadow: 0 5px 7px 0 rgb(0,0,0,0.6), 0 6.5px 10px 0 rgb(0,0,0,0.24);
+}
+
+
+/* The pagination */
+.page {
+				box-sizing: border-box;
+				text-align: center;
+				margin: 10%;
+}
+
+.pagination {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+}
+
+.pagination li {
+		display: inline;		
+}
+
+.pagination li a {
+			text-decoration: none;	
+			color: dodgerblue;
+			padding: 5px;
+			border: 2px solid #4077ff;
+}
+
+.pagination li a:hover {
+			background: #4077ff;
+			color: white;
+}
+
+.pagination .active {
+		background: #4077ff;
+		color: white;
+}
+
+/* The search-bar */
+.search-bar {
+				box-sizing: border-box;
+				text-align: center;
+				margin: 5%;
+}
+
+
+.search-bar input {
+				padding: 6px;
+				font-size: 0.9em;
+				border-radius: 5%;
+				border: 2px solid grey;
+				caret-color: dodgerblue;
+}
+
+.search-bar input:focus {
+				box-shadow: 0 5px 9px 0 rgb(46,93,198);
+				border: 2px solid rgb(46,93,198);
+				outline: none;
+}
+
+/* The footer */
+#footer {
+				box-sizing: border-box;
+				text-align: center;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				background: black;
+				color: white;
+}
